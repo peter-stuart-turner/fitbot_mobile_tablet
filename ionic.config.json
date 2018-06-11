@@ -1,0 +1,8 @@
+{
+  "name": "fitbot",
+  "app_id": "e3e966f1",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}

@@ -1,0 +1,39 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Ionic API.AI Chatbot
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+
+  <input ion-text type="text" [(ngModel)]="question">
+
+  <button ion-button (click)="ask(question)">
+    Ask
+  </button>
+
+  <div>
+    {{answer}}
+  </div>
+
+</ion-content>
+<!--
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Welcome to FITbot</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <h3>Ionic Menu Starter</h3>
+  <div  class="chatform">
+    <message-list [messages]="messages"></message-list>
+    <message-form [message]="message" [messages]="messages"></message-form>
+  </div>
+  <button ion-button secondary menuToggle>Toggle Menu</button>
+</ion-content> -->
